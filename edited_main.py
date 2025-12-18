@@ -32,7 +32,7 @@ def compute_fft(y, sr):
 
 st.set_page_config(layout="centered", page_icon="📡", page_title="Analog Communication")
 
-b64 = load_background("/home/omar-ahmed/Downloads/76826.jpg")
+b64 = load_background("76826.jpg")
 
 st.markdown(f"""
 <style>
@@ -48,7 +48,7 @@ st.markdown(f"""
 
 st.title("Analog Communication Project")
 
-st.image("/home/omar-ahmed/Pictures/Screenshot from 2025-12-12 21-58-21.png")
+st.image("Screenshot from 2025-12-12 21-58-21.png")
 
 with open("text.txt", "+r") as file:
     txt = file.read()
